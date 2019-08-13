@@ -13,7 +13,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MetricHttpAPI {
 
-    public static final String BASE_URL = "https://json.vostra.xyz";
+    public static final String BASE_URL = "########";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient(boolean use_https) {

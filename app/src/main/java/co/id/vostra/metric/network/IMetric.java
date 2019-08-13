@@ -7,6 +7,6 @@ import retrofit2.http.GET;
 
 
 public interface IMetric {
-    @GET("/api/v1/statusmetric")
+    @GET("#################")
     Call<MetricModel> getAll();
 }

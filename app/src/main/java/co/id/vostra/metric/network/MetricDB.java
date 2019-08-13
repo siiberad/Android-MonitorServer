@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MetricDB {
 
-    public static final String BASE_URL = "https://metric.vostra.xyz";
+    public static final String BASE_URL = "##############";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {

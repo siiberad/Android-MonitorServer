@@ -14,7 +14,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MetricStatusAPI {
 
-    public static final String BASE_URL = "https://json.vostra.xyz";
+    public static final String BASE_URL = "########";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {
@@ -25,7 +25,7 @@ public class MetricStatusAPI {
                     public Response intercept(Chain chain) throws IOException {
                         Request request = chain.request();
                         request = request.newBuilder()
-                                .addHeader("x-auth","Vosta2018")
+                                .addHeader("x-auth","########")
                                 .build();
                         return chain.proceed(request);
                     }
